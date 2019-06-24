@@ -7,4 +7,6 @@ ROOT_DIR ?= ../..
 APPS_DIR ?= ..
 DEPS_DIR ?= ../../deps
 
+DEPS = amqp_client
+
 include $(ROOT_DIR)/erlang.mk
